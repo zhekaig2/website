@@ -34,6 +34,7 @@ $ci-5               : #DF4949; // red
 $ci-6               : #A1D044; // green
 $ci-7               : #2C3166; // uiuc blue
 $ci-8               : #FA452A; // uiuc orange
+$ci-9               : #FFFFFF; // white
 
 
 
@@ -79,31 +80,31 @@ $topbar-bg-color    : $ci-7;
 $topbar-bg          : $topbar-bg-color;
 
 
-$topbar-dropdown-toggle-color: #fdfdfd;
+$topbar-dropdown-toggle-color: $ci-9;
 
 $topbar-link-color  : #000;
 $topbar-link-color-hover: #000;
 $topbar-link-color-active: #000;
 $topbar-link-color-active-hover: #000;
 
-$topbar-dropdown-label-color: #fdfdfd;
-$topbar-dropdown-link-bg-hover: #fdfdfd;
+$topbar-dropdown-label-color: $ci-9;
+$topbar-dropdown-link-bg-hover: $ci-9;
 
-$topbar-link-bg-active: #fdfdfd; // Active Navigation Link
-$topbar-link-bg-hover: #fdfdfd;
-$topbar-link-bg-active-hover: #fdfdfd;
+$topbar-link-bg-active: $ci-9; // Active Navigation Link
+$topbar-link-bg-hover: $ci-9;
+$topbar-link-bg-active-hover: $ci-9;
 
 
-$topbar-dropdown-bg: #fdfdfd; // Background Mobile Navigation
+$topbar-dropdown-bg: $ci-9; // Background Mobile Navigation
 $topbar-dropdown-link-color: #000;
-$topbar-dropdown-link-bg: #fdfdfd;
+$topbar-dropdown-link-bg: $ci-9;
 
-$topbar-menu-link-color-toggled: #fdfdfd;
-$topbar-menu-icon-color-toggled: #fdfdfd;
+$topbar-menu-link-color-toggled: $ci-9;
+$topbar-menu-icon-color-toggled: $ci-9;
 $topbar-menu-link-color: #000;
-$topbar-menu-icon-color: #fdfdfd;
-$topbar-menu-link-color-toggled: #fdfdfd;
-$topbar-menu-icon-color-toggled: #fdfdfd;
+$topbar-menu-icon-color: #000;
+$topbar-menu-link-color-toggled: $ci-9;
+$topbar-menu-icon-color-toggled: $ci-9;
 
 
 
