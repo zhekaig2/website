@@ -1,14 +1,35 @@
 ---
 layout: page
-subheadline: "Header"
-title: "Style your Header!"
-teaser: "These are your options to style the header of each webpage individually. <em>Feeling Responsive</em> uses <a href='http://srobbin.com/jquery-plugins/backstretch/'>Backstretch by Scott Robin</a> to expand them from left to right. The width should be 1600 pixel or higher using a ratio like 16:9 or 21:9 or 2:1."
+title: "Header With Text"
+subheadline: "Headers With Style"
+teaser: "Feeling Responsive allows you to use all kinds of headers. This header is with text."
+categories:
+    - design
+tags:
+    - design
+    - background color
+    - header
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/headers/"
+    title: header with text
+    background-color: "#EFC94C;"
+#    pattern: pattern_concrete.jpg
+    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
 ---
-<ul>
-    {% for post in site.tags.header %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+<!--more-->
+
+## Front Matter Code
+
+~~~
+header:
+    title: header with text
+    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+~~~
+
+### All Header-Styles 
+{: .t60 }
+
+{% include list-posts tag='header' %}
